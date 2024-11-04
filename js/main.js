@@ -23,7 +23,7 @@ let arrTitles = [
   "Student Management",
   "Schedule",
   "WiFi Scanner",
-  "Concert Ticket Website",
+  "Weather Application",
 ];
 let arrDescs = [
   " This project is a major project of the subject Major Project of" +
@@ -38,21 +38,21 @@ let arrDescs = [
     "management process as well as increase user experience.",
   "This project is designed to help users easily manage and organize their daily work. With a friendly and intuitive interface, users can flexibly track and organize their tasks effectively. In particular, the application supports offline mode, bringing convenience and speed to users, no matter where they are.",
   "I designed this application to collect Wi-Fi data for our group's scientific research project. The application helps users easily collect information about Wi-Fi, including name, SSID, signal strength, and sensor values. After collection, the data will be fed into a machine-learning model for processing, thereby effectively determining location and accuracy.",
-  "This project is part of the F8 FullStack Basic HTML/CSS course. After completing the course, I designed the interface for a concert ticketing website. The project helped me get familiar with HTML and CSS tags and create an intuitive and user-friendly interface. I focused on the user experience, making sure that people could easily find and book tickets to their favorite music events.",
+  "This is a convenient weather viewing application that allows you to enter the city name to display weather information on the screen. Users can monitor the weather at fixed time frames and get forecasts for the whole week. The interface is designed with flexible light and dark modes, suitable for users' needs while providing an intuitive and beautiful experience.",
 ];
 
 let arrCons = [
   "In this project, I took on the role of interface designer and application developer. I designed the soft copy on Figma and then implemented this design in Android Studio. I used Firebase to manage the user login system and also performed data manipulation on Firebase to retrieve information and display it in the application. To enhance the user experience, I combined animations and custom views, creating a flexible and friendly interface, making it easy for users to manipulate.",
   "In this project, I took on the role of user interface designer, with the goal of creating an intuitive and friendly user experience. I used the Room Database to store user input tasks, ensuring high availability and performance. Besides, I also integrated animation effects to enhance the user experience, bringing liveliness and appeal to the application.",
   "In this project, I was responsible for designing the user interface, ensuring that the user experience was intuitive and easy to understand. I also handled the necessary permissions, ensuring that the application ran smoothly. Additionally, I took measurements and recorded the data to files, storing them securely in the device's internal memory.",
-  "In this project, I took on the role of interface designer, focusing on creating intuitive and user-friendly interfaces. I used HTML, CSS, and JavaScript technologies to build smooth and interactive user experiences.",
+  "After completing the design interface, I proceeded to the installer to build the interface application. Next, I used Retrofit to call the API and get data from OpenWeatherMap, displaying this information on the screen. At the same time, I also paid attention to thread handling to ensure the application runs smoothly, thereby improving the user experience.",
 ];
 
 let arrTechs = [
   "Android Studio, Java, Firebase.",
   "Android Studio, Java, Room Database.",
-  "Android Studio, Java.",
-  "HTML/CSS, JavaSCript.",
+  "Android Studio, Java, Wifi Manager.",
+  "Android Studio, Java, Retrofit API, OpenWeatherMap.",
 ];
 
 // open menu
@@ -115,7 +115,7 @@ btnThree.addEventListener("click", function () {
 });
 btnFour.addEventListener("click", function () {
   showModal(
-    "https://youtube.com/embed/_p4AesD7EmY",
+    "https://youtube.com/embed/-hKs1jUjomM",
     arrTitles[3],
     arrDescs[3],
     arrCons[3],
